@@ -23,7 +23,7 @@ results = ConsensusClusterPlus(d,maxK=6,reps=50,pItem=0.8,pFeature=1,
 
 #The number of clusters K= 2,3,4....6, 80% of the samples were sampled by the re-sampling scheme. After multiple sampling, a stable and reliable subgroup classification was found.
 
-## The samples with class tags are then used to look for tagged genes that can be classified into the samples.Tag genes can be found by using PAM method.¡£
+## The samples with class tags are then used to look for tagged genes that can be classified into the samples.Tag genes can be found by using PAM method.Â¡Â£
 
 #results[[2]] is theresults result of k=2
 results[[4]][["consensusMatrix"]][1:5,1:5]
